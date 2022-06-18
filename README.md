@@ -8,7 +8,7 @@ that is based on html and javascript.
 
 To build the image:
 ```
-$ docker build -t raspberrypi5621/iss-tracker 
+$ docker build -t raspberrypi5621/iss-tracker .
 ```
 
 # Running the image
