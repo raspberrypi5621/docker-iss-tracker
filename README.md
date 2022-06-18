@@ -4,7 +4,7 @@ This program is a docker version
 of this repository https://github.com/ruairidhflint/iss.git
 that is based on html and javascript.
 
-# Build and run the image
+# Build the image
 
 To build the image:
 ```
