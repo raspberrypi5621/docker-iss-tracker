@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="International Space Station Tracking via Google Maps" />
+    <link rel="icon" type="image/x-icon" href="src/images/favicon.ico" />
+
+    <title>ISS Location</title>
+    <style>
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
+        height: calc(var(--vh, 1vh) * 100);
+      }
+      html {
+        height: -webkit-fill-available;
+      }
+      #map {
+        width: 100vw;
+        height: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="map"></main>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTbCVuYsGZtm6UNOphzZCNR-1x-6LGE8c&libraries=places"></script>
+    <script defer src="dist/bundle.js"></script>
+  </body>
+</html>
